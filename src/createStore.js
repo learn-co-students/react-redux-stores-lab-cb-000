@@ -19,9 +19,9 @@ export default function createStore(reducer){
   dispatch({type:"Initial Action"})
 
   return {
-    getState: getState,
-    dispatch: dispatch,
-    subscribe: subscribe
+    getState,
+    dispatch,
+    subscribe
   }
 
 }
