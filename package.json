@@ -2,14 +2,8 @@
   "name": "introduction-to-react-assessment",
   "version": "0.1.0",
   "description": "Build a small React application using all that you&#39;ve learned in the course",
-  "engines": {
-    "node": "6.x",
-    "npm": "3.x"
-  },
   "main": "index.js",
   "scripts": {
-    "debug": "node-debug --hidden node_modules _mocha --watch",
-    "debug-ide": "./bin/debug-ide",
     "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json"
   },
   "repository": {
@@ -36,8 +30,8 @@
     "jsdom": "^9.4.1",
     "mocha": "^3.0.1",
     "mocha-multi": "^0.9.1",
-    "node-inspector": "^0.12.8",
-    "sinon": "^1.17.6"
+    "sinon": "^1.17.6",
+    "react-test-renderer": "^15.3.0"
   },
   "dependencies": {
     "react": "^15.3.0",
